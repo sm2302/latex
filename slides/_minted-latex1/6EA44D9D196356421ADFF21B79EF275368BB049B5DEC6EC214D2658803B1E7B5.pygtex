@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}item} Tea
+\PYG{k}{\PYGZbs{}item} Milk
+\PYG{k}{\PYGZbs{}item} Biscuits
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

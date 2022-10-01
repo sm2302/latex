@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} for bullet points}
+\PYG{k}{\PYGZbs{}item} Biscuits
+\PYG{k}{\PYGZbs{}item} Tea
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} for numbers}
+\PYG{k}{\PYGZbs{}item} Biscuits
+\PYG{k}{\PYGZbs{}item} Tea
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

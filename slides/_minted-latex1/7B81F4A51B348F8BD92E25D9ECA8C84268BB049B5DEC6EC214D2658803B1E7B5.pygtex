@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Single quotes: `text\PYGZsq{}.
+
+Double quotes: ``text\PYGZsq{}\PYGZsq{}.
+\end{Verbatim}

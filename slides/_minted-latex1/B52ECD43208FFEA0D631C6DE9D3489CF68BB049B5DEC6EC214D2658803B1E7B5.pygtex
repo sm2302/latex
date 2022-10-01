@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} not so good:}
+Let a and b be distinct positive
+integers, and let c = a \PYGZhy{} b + 1.
+
+\PYG{c}{\PYGZpc{} much better:}
+Let \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{l+s}{\PYGZdl{}} and \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}} be distinct positive
+integers, and let \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{c }\PYG{o}{=}\PYG{n+nb}{ a }\PYG{o}{\PYGZhy{}}\PYG{n+nb}{ b }\PYG{o}{+}\PYG{n+nb}{ }\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}}.
+\end{Verbatim}
