@@ -21,5 +21,6 @@ _minted-part*
 */structure-sections.pdf
 */structure-title.pdf
 */latex-course.tgz
-.DS_Store
-.texpadtmp
+*.DS_Store
+*.texpadtmp
+
