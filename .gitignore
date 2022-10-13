@@ -23,4 +23,4 @@ _minted-part*
 */latex-course.tgz
 *.DS_Store
 *.texpadtmp
-
+*.synctex.gz

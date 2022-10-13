@@ -257,7 +257,7 @@ Cable  & 3   & 19.99   \\\hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{bib\TeX}
+\subsection{Bib\LaTeX}
 \begin{frame}[fragile]{\insertsubsection{} 1}
 \begin{itemize}
 \item Put your references in a \bftt{.bib} file in `bibtex' database format:
@@ -290,10 +290,9 @@ list of references; it knows most standard styles, and you can design your own.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{\insertsubsection{} 3}
 \begin{itemize}
-\item Use the \bftt{natbib} package\footnote{There is a new package with more
-  features named \bftt{biblatex} but most of the articles templates still use
-  \bftt{natbib}.} with \cmdbs{citet} and \cmdbs{citep}.
-\item Reference \cmdbs{bibliography} at the end, and specify a \cmdbs{bibliographystyle}.
+\item Use the \bftt{biblatex} package with the \bftt{natbib} option.
+\item The bibliography file must be called using the \cmdbs{addbibresource} command.
+\item At the end, print the bibliography using \cmdbs{printbibliography}.
 \end{itemize}
 \begin{minipage}{0.55\linewidth}
 \inputminted[fontsize=\scriptsize,frame=single,resetmargins]{latex}%
@@ -303,6 +302,30 @@ list of references; it knows most standard styles, and you can design your own.
 \includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.8in 1in]{bib-example.pdf}
 \end{minipage}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]{\insertsubsection{} 4}
+
+\begin{itemize}
+\item Several \bftt{style} to choose from (\bftt{apa}, \bftt{numeric}, \bftt{authoryear}, and other journal styles too). See this \href{https://www.overleaf.com/learn/latex/Biblatex_citation_styles}{link}.
+\item Previously, the package \bftt{bibtex} and \bftt{natbib} were very commonly used; and these provided several citation commands such as \cmdbs{citet}, \cmdbs{citep}, \cmdbs{citeyear}, etc. See this \href{https://www.overleaf.com/learn/latex/Natbib_citation_styles}{link}.
+\item The \bftt{biblatex} package provides much more customisation to your bibliography.
+\begin{itemize}
+%\item Sorting options: \bftt{sort=none}, etc. 
+\item Change the title: \cmdbs{printbibliography[title=\{My title\}]}
+\item Print only certain types: \cmdbs{printbibliography[type=article,title=\{Articles only\}]}, 
+\cmdbs{printbibliography[keyword=\{physics\},title=\{Physics-related only\}]}
+\item Adding bibliography to TOC: \cmdbs{printbibliography[heading=bibintoc]}
+\end{itemize}
+
+\end{itemize}
+
+For more customisation options, see the package \href{https://mirror.marwan.ma/ctan/macros/latex/contrib/biblatex/doc/biblatex.pdf}{documentation}. 
+
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
